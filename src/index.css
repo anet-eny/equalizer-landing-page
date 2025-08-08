@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@import "@fontsource/ibm-plex-sans";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/700.css";
+
 @theme {
   /* FONT */
   --font-plex: "IBM Plex Sans", sans-serif;
@@ -13,11 +17,79 @@
   --color-slate: #191826;
 
   /* TEXT PRESETS */
-  --text-preset-1: 88px/100% -1px var(--font-sans);
-  --text-preset-2: 64px/100% 0px var(--font-sans);
-  --text-preset-3: 40px/110% 0px var(--font-sans);
-  --text-preset-4: 20px/150% 0px var(--font-sans);
-  --text-preset-5-bold: 16px/150% 0px var(--font-sans);
-  --text-preset-5: 16px/150% 0px var(--font-sans);
-  --text-preset-6: 18px/180% 0px var(--font-sans);
+  --text-preset-1-size: 88px;
+  --text-preset-1-line-height: 100%;
+  --text-preset-1-letter-spacing: -1px;
+
+  --text-preset-2-size: 64px;
+  --text-preset-2-line-height: 100%;
+  --text-preset-2-letter-spacing: 0px;
+
+  --text-preset-3-size: 40px;
+  --text-preset-3-line-height: 110%;
+  --text-preset-3-letter-spacing: 0px;
+
+  --text-preset-4-size: 20px;
+  --text-preset-4-line-height: 150%;
+  --text-preset-4-letter-spacing: 0px;
+
+  --text-preset-5-size: 16px;
+  --text-preset-5-line-height: 150%;
+  --text-preset-5-letter-spacing: 0px;
+
+  --text-preset-5-bold-size: 16px;
+  --text-preset-5-bold-line-height: 150%;
+  --text-preset-5-bold-letter-spacing: 0px;
+
+  --text-preset-6-size: 18px;
+  --text-preset-6-line-height: 180%;
+  --text-preset-6-letter-spacing: 0px;
 }
+
+@utility text-preset-1 {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-1-size);
+  line-height: var(--text-preset-1-line-height);
+  letter-spacing: var(--text-preset-1-letter-spacing);
+}
+@utility text-preset-2 {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-2-size);
+  line-height: var(--text-preset-2-line-height);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+}
+@utility text-preset-3 {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-3-size);
+  line-height: var(--text-preset-3-line-height);
+  letter-spacing: var(--text-preset-3-letter-spacing);
+}
+@utility text-preset-4 {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-4-size);
+  line-height: var(--text-preset-4-line-height);
+  letter-spacing: var(--text-preset-4-letter-spacing);
+}
+@utility text-preset-5 {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-5-size);
+  line-height: var(--text-preset-5-line-height);
+  letter-spacing: var(--text-preset-5-letter-spacing);
+}
+@utility text-preset-5-bold {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-5-bold-size);
+  line-height: var(--text-preset-5-bold-line-height);
+  letter-spacing: var(--text-preset-5-bold-letter-spacing);
+  font-weight: 700;
+}
+@utility text-preset-6 {
+  font-family: var(--font-sans);
+  font-size: var(--text-preset-6-size);
+  line-height: var(--text-preset-6-line-height);
+  letter-spacing: var(--text-preset-6-letter-spacing);
+}
+
+/* body {
+  font-family: var(--font-plex);
+} */
