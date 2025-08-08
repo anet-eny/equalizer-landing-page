@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+  /* FONT */
+  --font-plex: "IBM Plex Sans", sans-serif;
+  --font-sans: var(--font-plex);
+
+  /* COLORS */
+  --color-cyan: #66e2dc;
+  --color-orange: #fa7453;
+  --color-yellow: #ffb964;
+  --color-white: #fcfaf9;
+  --color-slate: #191826;
+
+  /* TEXT PRESETS */
+  --text-preset-1: 88px/100% -1px var(--font-sans);
+  --text-preset-2: 64px/100% 0px var(--font-sans);
+  --text-preset-3: 40px/110% 0px var(--font-sans);
+  --text-preset-4: 20px/150% 0px var(--font-sans);
+  --text-preset-5-bold: 16px/150% 0px var(--font-sans);
+  --text-preset-5: 16px/150% 0px var(--font-sans);
+  --text-preset-6: 18px/180% 0px var(--font-sans);
+}
