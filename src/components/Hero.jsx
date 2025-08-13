@@ -5,7 +5,7 @@ import bgDesktop from "../assets/bg-desktop.png";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-[#fafafa] overflow-hidden">
+    <section className="relative bg-[#fafafa] pt-800 pb-2500 ">
       <img
         src={bgMobile}
         alt=""
@@ -13,7 +13,7 @@ export default function Hero() {
       />
       <div className="relative z-10 px-250">
         <Header />
-        <h1 className=" text-preset-3_5-bold text-slate">
+        <h1 className="mt-800 text-preset-3_5-bold text-slate">
           We make your music sound extraordinary
         </h1>
         <p className="mt-500 text-preset-5 text-slate">
