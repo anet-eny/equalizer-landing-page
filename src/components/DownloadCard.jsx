@@ -16,11 +16,11 @@ export default function DownloadCard() {
       </div>
 
       <div className="space-y-200 mt-600">
-        <button className="w-full py-200 flex items-center justify-center gap-100 text-preset-6 font-medium text-white hover:text-slate bg-slate hover:bg-cyan rounded-xl cursor-pointer">
+        <button className="w-full py-200 flex items-center justify-center gap-100 text-preset-6 font-medium text-white hover:text-slate bg-slate hover:bg-cyan rounded-xl cursor-pointer transition-colors duration-300">
           <FaApple size={24} />
           iOS Download
         </button>
-        <button className="w-full py-200 flex items-center justify-center gap-100 text-preset-6 font-medium text-slate bg-white hover:bg-yellow rounded-xl cursor-pointer">
+        <button className="w-full py-200 flex items-center justify-center gap-100 text-preset-6 font-medium text-slate bg-white hover:bg-yellow rounded-xl cursor-pointer transition-colors duration-300">
           <GrAndroid size={24} />
           Android Download
         </button>
