@@ -1,3 +1,6 @@
+import { FaApple } from "react-icons/fa";
+import { GrAndroid } from "react-icons/gr";
+
 export default function DownloadCard() {
   return (
     <section className="min-h-[625px] px-250 py-600 bg-orange">
@@ -13,10 +16,12 @@ export default function DownloadCard() {
       </div>
 
       <div className="space-y-200 mt-600">
-        <button className="w-full py-200 text-preset-6 font-medium text-white bg-slate rounded-xl">
+        <button className="w-full py-200 flex items-center justify-center gap-100 text-preset-6 font-medium text-white bg-slate rounded-xl">
+          <FaApple size={24} />
           iOS Download
         </button>
-        <button className="w-full py-200 text-preset-6 font-medium text-slate bg-white rounded-xl">
+        <button className="w-full py-200 flex items-center justify-center gap-100 text-preset-6 font-medium text-slate bg-white rounded-xl">
+          <GrAndroid size={24} />
           Android Download
         </button>
       </div>
