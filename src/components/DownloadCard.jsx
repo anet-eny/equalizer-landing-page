@@ -3,9 +3,9 @@ import { GrAndroid } from "react-icons/gr";
 
 export default function DownloadCard() {
   return (
-    <section className="min-h-[625px] px-250 py-600 bg-orange">
+    <section className="min-h-[625px] sm:absolute sm:top-1000 sm:right-1000 sm:max-w-[356px] px-250 sm:px-600 py-600 bg-orange sm:rounded-2xl">
       <h2 className="text-preset-3_5-bold">Premium EQ</h2>
-      <p className="text-preset-5 mt-300">
+      <p className="text-preset-5 sm:text-preset-4 sm:text-lg mt-300">
         Get expert-level control with a robust equalizer, volume mixer, and
         spatial audio. Take your listening experience to a whole new level and
         access all our incredible features!

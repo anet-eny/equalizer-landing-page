@@ -3,7 +3,7 @@ import DownloadCard from "./DownloadCard";
 
 export default function Main() {
   return (
-    <section>
+    <section className="relative sm:px-500 sm:pb-2500 bg-[#fafafa]">
       <FeatureCard />
       <DownloadCard />
     </section>
