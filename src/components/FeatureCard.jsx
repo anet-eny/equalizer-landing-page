@@ -8,13 +8,8 @@ export default function FeatureCard() {
         <img
           src={illustrationApp}
           alt=""
-          className=" -mt-1600 mx-auto mb-800 w-[210px] sm:w-[270px] md:w-[330px]"
+          className="-mt-1600 mx-auto sm:ml-500 mb-800 w-[210px] sm:max-w-[270px] md:w-[330px]"
         />
-        {/* <img
-          src={bgPatternMain}
-          alt=""
-          className="w-5/6 mx-auto sm:mx-0 sm:w-[300px] md:mx-auto"
-        /> */}
       </div>
     </section>
   );

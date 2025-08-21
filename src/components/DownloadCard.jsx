@@ -3,7 +3,7 @@ import { GrAndroid } from "react-icons/gr";
 
 export default function DownloadCard() {
   return (
-    <section className="min-h-[625px] sm:w-[356px] md:w-[512px] px-250 sm:px-600 py-600 bg-orange sm:rounded-2xl">
+    <section className="min-h-[625px] sm:max-w-[356px] md:max-w-[512px] px-250 sm:px-600 py-600 bg-orange sm:rounded-2xl ml-0 sm:ml-[clamp(-40px,-10vw,0px)] sm:mr-500 sm:mt-1000">
       <h2 className="text-preset-3_5-bold">Premium EQ</h2>
       <p className="text-preset-5 sm:text-preset-4 sm:text-lg mt-300">
         Get expert-level control with a robust equalizer, volume mixer, and
