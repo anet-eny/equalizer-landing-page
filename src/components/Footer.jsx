@@ -3,9 +3,11 @@ import { FaFacebookSquare, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="px-250 pt-800 pb-1000 bg-[#fafafa]">
-      <div className="max-w-[350px] space-y-400">
-        <img src={logo} alt="Equalizer logo" />
+    <footer className="px-250 sm:px-500 md:px-1000 pt-800 pb-1000 bg-[#fafafa]">
+      <div className=" gap-400 flex flex-col sm:flex sm:flex-row sm:justify-between sm:items-center sm:flex-wrap">
+        <div className="sm:w-full lg:w-auto lg:self-start">
+          <img className="max-w-[147px] " src={logo} alt="Equalizer logo" />
+        </div>
         <div className="text-preset-5">
           <p>All rights reserved © Equalizer 2021</p>
           <p>

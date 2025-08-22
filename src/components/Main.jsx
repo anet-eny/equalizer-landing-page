@@ -4,7 +4,7 @@ import bgPatternMain from "../assets/bg-pattern-main.svg";
 
 export default function Main() {
   return (
-    <section className="relative sm:px-500 md:px-1000 sm:pb-2500">
+    <section className="relative sm:px-500 md:px-1000 sm:pb-1600">
       <div className="relative max-w-[1120px] mx-auto">
         <div className="absolute top-0 left-0 right-0 bg-slate sm:rounded-xl h-[380px] sm:h-[600px] ">
           <img
