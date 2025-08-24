@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-[#fafafa]">
+    <main>
       <Hero />
       <Main />
       <Footer />

@@ -114,3 +114,9 @@
   line-height: var(--text-preset-6-line-height);
   letter-spacing: var(--text-preset-6-letter-spacing);
 }
+
+@layer base {
+  body {
+    @apply bg-[#fafafa];
+  }
+}
