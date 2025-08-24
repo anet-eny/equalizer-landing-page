@@ -6,7 +6,7 @@ import bgPattern from "../assets/bg-pattern-header.svg";
 
 export default function Hero() {
   return (
-    <section className="relative bg-[#fafafa] pt-800 pb-2500 ">
+    <section className="relative pt-800 pb-2500">
       <img
         src={bgMobile}
         alt=""
