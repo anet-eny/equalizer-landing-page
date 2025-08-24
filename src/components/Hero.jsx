@@ -20,7 +20,7 @@ export default function Hero() {
       <img
         src={bgDesktop}
         alt=""
-        className="absolute -top-20 hidden md:block"
+        className="absolute -top-20 hidden md:block max-w-[1500px]"
       />
       <img
         src={bgPattern}

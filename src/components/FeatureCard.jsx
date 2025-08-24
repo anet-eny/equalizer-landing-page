@@ -1,4 +1,3 @@
-import bgPatternMain from "../assets/bg-pattern-main.svg";
 import illustrationApp from "../assets/illustration-app.png";
 
 export default function FeatureCard() {
